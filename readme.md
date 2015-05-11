@@ -1,0 +1,1 @@
+This is my handmade portfolio and website, yes I can use my ten fingers! Hope you'll enjoy it :)
