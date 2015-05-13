@@ -494,6 +494,39 @@ a:after {
 }
 
 
+
+/* Page 404 */
+
+#banner {
+  background: url(../img/fromages404.jpg) no-repeat center top;
+  /*background-image: url(../assets/img/fromages404.jpg);*/
+  background-opacity: black;
+  color: white;
+  padding: 150px 50px;
+  background-size: cover;
+  height: 650px;
+}
+
+#banner h1 {
+  font-size: 50px;
+  color: white;
+}
+
+#banner p {
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.btn {
+  background: none
+}
+
+.btn-default {
+  color: white
+}
+
+
+
 /* SVAY PORTFOLIO SECTION */
 
 .intro {
@@ -527,7 +560,7 @@ a:after {
 }
 .project-image {
   min-height:200px;
-  background-color:#CCC;
+  background-color: white;
   background-repeat:no-repeat;
   background-size:cover;
   background-position:center center
