@@ -124,7 +124,7 @@ a:after {
 
 /* Portfolio Wrap */
 #portfoliowrap {
-	background: url(../img/fonds.jpeg) no-repeat center top; */
+	/*background: url(../img/fonds.jpeg) no-repeat center top; */
 	margin-top: 0px;
 	padding-top:70px;
 	text-align:center;
@@ -493,6 +493,22 @@ a:after {
 	padding-left: 10px;
 }
 
+/* Locations - Map */
+.google-maps {
+    position: relative;
+    padding-bottom: 75%; /*This is the aspect ratio*/
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+    /*z-index: 0;
+    cursor: url(https://maps.gstatic.com/mapfiles/openhand_8_8.cur) 8 8, default;*/
+}
 
 
 /* Page 404 */
