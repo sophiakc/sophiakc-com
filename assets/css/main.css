@@ -581,6 +581,14 @@ a:after {
   background-size:cover;
   background-position:center center
 }
+.tools-image {
+  min-height:300px;
+  min-width: 100px;
+  background-color: white;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center center
+}
 .project-cta {
   display:block;
   opacity:0;
