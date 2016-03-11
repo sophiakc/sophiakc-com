@@ -8,7 +8,8 @@
  */
 
 body {
-  background-color: white;
+  background-image: "assets/img/skc-photo.jpg">
+  /*background-color: white;*/
     font-family: "Helvetica";
     font-size: 14px;
     color: #555;
@@ -46,7 +47,8 @@ p {
 
 /* Links */
 a {
-    color: #333;
+    /*color: #333;*/
+    color: white;
     word-wrap: break-word;
 
     -webkt-transition: color 0.1s ease-in, background 0.1s ease-in;
