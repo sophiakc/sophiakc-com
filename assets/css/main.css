@@ -8,6 +8,11 @@
  */
 
 body {
+  /*background-image: url("skc-photo.jpg");
+  background-size: 1200px;
+  background-position: right top;
+  background-repeat: no-repeat;*/
+  /*background-opacity: 1.0;*/
   background-color: white;
     font-family: "Helvetica";
     font-size: 14px;
@@ -165,7 +170,7 @@ a:after {
 /* White Wrap */
 
 #myself {
-	background: #ffffff;
+  /*background: #ffffff;*/
 	padding-top: 35px;
 	padding-bottom: 35px;
 	text-align: justify;
