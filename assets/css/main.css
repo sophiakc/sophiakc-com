@@ -17,6 +17,16 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  margin:0 10px 0 0;
+}
+
+
 /* Titles */
 h1, h3, h4, h5, h6 {
     font-family: "Raleway";
