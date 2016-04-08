@@ -14,25 +14,62 @@ body {
   background-repeat: no-repeat;*/
   /*background-opacity: 1.0;*/
   background-color: white;
-    font-family: "Helvetica";
-    font-size: 14px;
+    font-family: "Raleway";
+    font-size: 17px;
     color: #555;
 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 }
 
+definition {
+  font-size: 12px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+li {
+  display: inline-block;
+  margin:0 10px 0 0;
+}
+
+
 /* Titles */
-h1, h3, h4, h5, h6 {
+h1, h3, h4, h6 {
     font-family: "Raleway";
     font-weight: 300;
     color: #333;
+    margin-top: 0px;
 }
 h2 {
     font-family: "Raleway";
     font-weight: 300;
 }
-h7{
+
+/*definition underdog*/
+h5 {
+    font-family: "Raleway";
+    font-weight: 300;
+    font-size: 24px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    opacity: 0.7;
+}
+
+h6 {
+  font-family: "Raleway";
+  font-weight: 300;
+  font-size: 16px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  opacity: 0.7;
+}
+
+
+h7 {
     font-family: "Raleway";
     font-weight: 300;
     color: #ffffff;
