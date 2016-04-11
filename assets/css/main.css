@@ -44,6 +44,15 @@ h1, h3, h4, h6 {
     color: #333;
     margin-top: 0px;
 }
+
+.intro-white > h1, .intro-white > h3 {
+  color: white;
+}
+
+.intro-white {
+  margin:3em 0;
+}
+
 h2 {
     font-family: "Raleway";
     font-weight: 300;
