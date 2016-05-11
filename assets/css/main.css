@@ -619,7 +619,7 @@ a:after {
   text-decoration:none
 }
 .project p {
-  color:#888;
+  color:#080808;
   font-weight:300;
   margin:.5em 0 0 0
 }
@@ -664,17 +664,18 @@ a:after {
 .btn {
   display:block;
   position:absolute;
+  text-decoration:
   color:#FFF;
   top:0;
   left:0;
   bottom:0;
   right:0;
-  line-height:190px;
-  font-weight:300;
-  font-size:1.5em;
+  /*line-height:190px;*/
+  font-weight:500;
+  font-size: 18px;
   text-transform:none;
   text-align: left;
-  vertical-align: text-top;
+  vertical-align: bottom;
 }
 .project-cta
 .btn:hover {
