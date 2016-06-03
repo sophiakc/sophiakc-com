@@ -1,10 +1,5 @@
 /*
  * Author: Sophia KECIR CAMPER
- * URL: http://alvarez.is
- *
- * Project Name: Onassis - Free Bootstrap 3 Theme
- * Version: 1.0
- * URL: http://blacktie.co
  */
 
 body {
@@ -35,7 +30,6 @@ li {
   display: inline-block;
   margin:0 10px 0 0;
 }
-
 
 /* Titles */
 h1, h3, h4, h6 {
@@ -96,9 +90,33 @@ p {
 }
 
 /* Links */
+
+.duo > ul > li > a {
+  text-decoration:none;
+  border-bottom: none;
+  box-shadow: none;
+  color: inherit;
+  /*transition: background 0.1s cubic-bezier(.33,.66,.66,1);*/
+}
+
+.duo > ul > li > a:hover,
+.project-preview {
+  background: none;
+}
+
 a {
+  text-decoration:none;
+  border-bottom: 3px solid #dbd9d9;
+  box-shadow: inset 0 -4px 0 #e3e3e3;
+  color: inherit;
+  /*transition: background 0.1s cubic-bezier(.33,.66,.66,1);*/
+}
+
+
+
+/*a {
     color: #333;
-    /*color: white;*/
+    color: white;
     word-wrap: break-word;
 
     -webkt-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -106,7 +124,8 @@ a {
     -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
     -o-transition: color 0.1s ease-in, background 0.1s ease-in;
     transition: color 0.1s ease-in, background 0.1s ease-in;
-}
+}*/
+
 a.light {
 	color: black;
 }
@@ -116,6 +135,10 @@ a.opacity{
 a.opacity:hover{
   color: #00ca94;
 	opacity: 1;
+}
+
+a:hover {
+  background: #dbd9d9;
 }
 
 a:hover,
@@ -676,16 +699,22 @@ a:after {
   text-transform:none;
   text-align: left;
   vertical-align: bottom;
+  background: none;
+  box-shadow: none
 }
 .project-cta
 .btn:hover {
-  text-decoration:none
+  text-decoration:none;
+  background: none;
+  box-shadow: none
 }
 
 
 
-
-
+.duo {
+  margin-bottom: 50px;
+  padding-left: 15px
+}
 
 .container {
   margin-right:auto;
