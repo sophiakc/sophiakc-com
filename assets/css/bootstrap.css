@@ -2031,8 +2031,9 @@ fieldset[disabled] .btn {
 
 .btn-default {
   color: #333333;
-  background-color: #ffffff;
+  background-color: none;
   border-color: #cccccc;
+  margin-bottom: 5px;
 }
 
 .btn-default:hover,
@@ -2043,6 +2044,10 @@ fieldset[disabled] .btn {
   color: #333333;
   background-color: #ebebeb;
   border-color: #adadad;
+}
+
+.expertise .btn-default:hover {
+  background-color: white;
 }
 
 .btn-default:active,

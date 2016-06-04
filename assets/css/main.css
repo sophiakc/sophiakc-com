@@ -114,6 +114,15 @@ p {
   background: none;
 }
 
+.expertise {
+  padding-left: 15px;
+  padding-bottom: 20px
+}
+
+.expertise ul {
+  text-align: center; 
+}
+
 a {
   text-decoration:none;
   border-bottom: 3px solid #dbd9d9;
@@ -622,7 +631,7 @@ a:after {
   background: none
 }
 
-.btn-default {
+#banner > .btn-default {
   color: white
 }
 
@@ -632,7 +641,8 @@ a:after {
 
 .intro {
   margin:3em 0;
-  color:#666
+  color:#666;
+  padding-left: 15px
 }
 
 .project {
