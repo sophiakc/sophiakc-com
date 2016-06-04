@@ -91,6 +91,16 @@ p {
 
 /* Links */
 
+.menu a:hover {
+  background: none;
+}
+.menu a {
+  text-decoration:none;
+  border-bottom: none;
+  box-shadow: none;
+  color: inherit;
+}
+
 .duo > ul > li > a {
   text-decoration:none;
   border-bottom: none;
