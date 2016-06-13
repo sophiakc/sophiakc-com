@@ -157,13 +157,13 @@ a.opacity:hover{
 }
 
 a:hover {
-  background: #dbd9d9;
+  background: #f4f3f3;
 }
 
 a:hover,
 a:focus {
     color: #00ca94 !important;
-    font-weight: bold;
+    /*font-weight: bold;*/
     text-decoration: none;
     outline: 0;
 }
