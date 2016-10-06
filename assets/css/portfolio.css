@@ -15,23 +15,36 @@
   background-position:center center
 }
 
-.projectcover {
+.projectleft {
   background-color: #f7f6f1;
   text-align: center;
   padding-top: 48px;
   height: 494px;
+  right: 10px;
 }
 
-.projectcover h2 {
+.projectright {
+  background-color: #f7f6f1;
+  text-align: center;
+  padding-top: 48px;
+  height: 494px;
+  /*position-right: 5px;*/
+}
+
+.project h2 {
   color:#0A2E42;
   font-weight:200;
   font-size:1.3em;
 }
 
-
-
-.projectcover img {
+.webprojectcover img {
   width: 90%;
+  bottom: -1rem;
+  padding-top: 50px;
+}
+
+.mobileprojectcover img {
+  width: 48%;
   bottom: -1rem;
   padding-top: 50px;
 }
