@@ -15,20 +15,15 @@
   background-position:center center
 }
 
-.projectleft {
+.project {
   background-color: #f7f6f1;
   text-align: center;
   padding-top: 48px;
   height: 494px;
-  right: 10px;
 }
 
-.projectright {
-  background-color: #f7f6f1;
-  text-align: center;
-  padding-top: 48px;
-  height: 494px;
-  /*position-right: 5px;*/
+.col {
+  /*padding:  5 5 5 5;*/
 }
 
 .project h2 {

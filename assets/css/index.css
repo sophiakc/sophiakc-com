@@ -1,0 +1,9 @@
+#biointro {
+  background: url(../img/skcphotogifanim.gif) no-repeat center top;
+  background-position: center bottom;
+  color: white;
+  /*padding: 150px 50px;*/
+  background-size: cover;
+  height: 950px;
+  margin: 15px;
+}
