@@ -2,27 +2,35 @@
   max-width: 100%;
 }
 
-.col-xs-6 {
+.col-xs-12 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.col-sm-6 {
   padding-right: 0px;
   padding-left: 0px;
 }
 
 #picintro {
-  background: url(../img/skcphotoanimgifrect.gif) no-repeat;
+  background: url(../img/skcphotoanimgifrect.gif) no-repeat center top;
   color: white;
-  background-size: 100%;
+  background-size: cover;
   height: 950px;
   margin: 15px;
 }
 
 #textintro {
-  background: url(../img/productdesigner-grey.png) no-repeat;
-  color: white;
-  background-size: 70%;
+  background: url(../img/product-designer-pastel.png) no-repeat;
+  color: #1c1c1c;
+  background-size: 80%;
   height: 950px;
   margin: 55px;
 }
 
+#textintro p {
+  padding-top: 250px
+}
 
 #logosign {
   background: url(../img/skc-signature.png) no-repeat center top;
