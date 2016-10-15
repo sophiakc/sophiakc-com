@@ -1,9 +1,35 @@
-#biointro {
-  background: url(../img/skcphotogifanim.gif) no-repeat center top;
-  background-position: center bottom;
+.container {
+  max-width: 100%;
+}
+
+.col-xs-6 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+#picintro {
+  background: url(../img/skcphotoanimgifrect.gif) no-repeat;
   color: white;
+  background-size: 100%;
+  height: 950px;
+  margin: 15px;
+}
+
+#textintro {
+  background: url(../img/productdesigner-grey.png) no-repeat;
+  color: white;
+  background-size: 70%;
+  height: 950px;
+  margin: 55px;
+}
+
+
+#logosign {
+  background: url(../img/skc-signature.png) no-repeat center top;
+  background-position: left top;
   /*padding: 150px 50px;*/
-  background-size: cover;
+  background-size: contain;
+  width: 500px;
   height: 950px;
   margin: 15px;
 }
