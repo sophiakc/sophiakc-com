@@ -23,21 +23,27 @@
 #textintro {
   background: url(../img/product-designer-pastel.png) no-repeat;
   color: #1c1c1c;
-  background-size: 80%;
+  background-size: 95%;
   height: 950px;
   margin: 55px;
-}
-
-#textintro p {
-  padding-top: 250px
 }
 
 #logosign {
   background: url(../img/skc-signature.png) no-repeat center top;
   background-position: left top;
-  /*padding: 150px 50px;*/
   background-size: contain;
   width: 500px;
   height: 950px;
   margin: 15px;
+}
+
+.icon li > a  {
+  border-bottom: none;
+  box-shadow: none;
+  text-decoration:none;
+  color: inherit;
+}
+
+#textintro ul {
+  padding-top: 250px
 }
