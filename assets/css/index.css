@@ -13,17 +13,17 @@
 }
 
 #picintro {
-  background: url(../img/skcphotoanimgifrect.gif) no-repeat center top;
+  background: url(../img/photoid.jpg) no-repeat center top;
   color: white;
   background-size: cover;
-  height: 950px;
+  height: 750px;
   margin: 15px;
 }
 
 #textintro {
   background: url(../img/product-designer-pastel.png) no-repeat;
   color: #1c1c1c;
-  background-size: 95%;
+  background-size: 65%;
   height: 950px;
   margin: 55px;
 }
@@ -45,5 +45,5 @@
 }
 
 #textintro ul {
-  padding-top: 250px
+  padding-top: 150px
 }
